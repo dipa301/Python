@@ -4,7 +4,7 @@ services:
   - docker
 env:
   global:
-    - IMAGE_NAME=python-api
+    - IMAGE_NAME=dipa301/python-api
     - REGISTRY_USER=dipa301
     - REGISTRY_PASS=Ams@2019
     - secret: "<something long>"
